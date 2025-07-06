@@ -1,0 +1,110 @@
+@font-face {
+    font-family: "mario";
+    src: url("../fuentes/RetroMario-Regular.otf");
+}
+
+body{
+    text-align: center;
+    background: linear-gradient(45deg,rgba(238, 28, 37, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    min-height: 100vh;
+}
+
+nav {
+    margin: 20px auto;
+    width: fit-content;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav ul li {
+    float: left;
+}
+
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+    background-color: #0065b3;
+    border: 2px solid #bbb;
+    border-radius: 20px;
+    margin: auto 5px;
+    box-shadow: 5px 5px 5px rgba(0, 20, 0, .5);
+}
+
+nav ul li a:hover {
+     background-color: #111;
+    color: white;
+}
+
+.actual {
+    background-color: white;
+    color: black;
+}
+
+h1, h2, h3{
+    font-family: "mario", 'Courier New', Courier, monospace;
+    font-size: 4em;
+    color: greenyellow;
+    text-shadow: 5px 5px 5px rgba(0, 20, 0, .5);
+    font-weight: lighter;
+}
+
+h2{
+    font-size: 3em;
+    color: skyblue;
+}
+
+h3{
+    font-size: 2em;
+    color: white;
+}
+
+.portada, .biografia{
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 20, 0, .5);
+}
+
+.biografia{
+    height: 40vh;
+    width: 40%;
+}
+
+.historia{
+  display: table;
+  margin: 2em auto;
+}
+
+.historia li{
+    display: table-row;
+    text-align: left;
+}
+
+footer{
+    background-color: black;
+    padding: 1em;
+    border: 2px solid #bbb;
+    border-radius: 20px;
+}
+
+input, textarea, button{
+    border-radius: 20px;
+    width: 40%;
+}
+
+textarea{
+    min-height: 40vh;
+}

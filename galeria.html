@@ -5,16 +5,19 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Galería | Super Mario</title>
         <link rel="shortcut icon" href="https://mario.nintendo.com/favicon-32x32.png?v=f64a5e266ba99ac4835e163bddb88929" type="image/x-icon">
+        <link rel="stylesheet" href="css/estilos.css">
     </head>
-    <body align="center">
+    <body>
         <!-- ENCABEZADO -->
         <header>
             <h1>Galería de Super Mario</h1>
             <nav>
-                <a href="index.html">Inicio</a>
-                <a href="biografia.html">Biografía</a>
-                <a href="galeria.html">Galería</a>
-                <a href="contacto.html">Contacto</a>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="biografia.html">Biografía</a></li>
+                    <li><a href="galeria.html" class="actual">Galería</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul> 
             </nav>
         </header>
         <!-- CUERPO -->
@@ -62,7 +65,7 @@
                         
             <h3>¡It's-a-me, Mario!</h3>
             <p>
-                <audio controls autoplay loop src="https://vgmsite.com/soundtracks/super-mario-64-soundtrack/qrjwjcdvze/18.%20File%20Select.mp3"></audio>
+                <audio controls autoplay loop preload="auto" src="multimedia/18. File Select.mp3"></audio>
             </p>
         </main>
         <!-- PiIE DE PÁGINA -->
