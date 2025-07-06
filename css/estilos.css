@@ -103,8 +103,11 @@ footer{
 input, textarea, button{
     border-radius: 20px;
     width: 40%;
+    border: 2px solid black;
+    padding: 5px;
 }
 
 textarea{
     min-height: 40vh;
+    vertical-align: middle;
 }
